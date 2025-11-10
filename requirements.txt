@@ -1,0 +1,14 @@
+fastapi==0.109.1
+uvicorn==0.24.0
+redis==5.0.1
+python-multipart==0.0.19
+pydantic==2.5.0
+aioredis==2.0.1
+# For PostgreSQL async:
+asyncpg==0.29.0
+# Or for MySQL async:
+# asyncmy==0.2.7
+python-decouple==3.8
+alembic==1.12.1
+psycopg2-binary==2.9.9
+sqlalchemy[asyncio]==2.0.23
